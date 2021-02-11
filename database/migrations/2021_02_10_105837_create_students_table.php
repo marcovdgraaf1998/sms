@@ -20,6 +20,7 @@ class CreateStudentsTable extends Migration
             $table->string('lastName');
             $table->integer('age');
             $table->string('speciality');
+            $table->mediumText('image')->nullable();
             $table->timestamps();
         });
     }
